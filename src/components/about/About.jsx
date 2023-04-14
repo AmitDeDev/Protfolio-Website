@@ -30,13 +30,13 @@ function About() {
             <a href="#protfolio" className='about__card'>
               <FaLaptopCode className='about__icon'/>
               <h5>Projects</h5>
-              <small>10+ and its just the beginning</small>
+              <small>15+ and its just the beginning</small>
             </a>
               
             <a href="#testimonials" className='about__card'>
               <BiWinkSmile className='about__icon'/>
-              <h5>Hobbies</h5>
-              <small>Little more about me</small>
+              <h5>Education</h5>
+              <small>20+ Courses & Self learning</small>
             </a>
 
           </div>

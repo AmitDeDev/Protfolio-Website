@@ -1,6 +1,5 @@
 import React from 'react'
 import './protfolio.css'
-import socialmedia1 from '../../assets/socialmedia1.JPG'
 import socialmedia2 from '../../assets/socialmedia2.JPG'
 import popthecandy from '../../assets/popthecandy.JPG'
 import resturant2 from '../../assets/resturant2.JPG'
@@ -17,40 +16,40 @@ const data =[
     image: socialmedia2,
     title: `My first Django project it's little bit messy but I am still proud of it - Social Media built with python & Django, HTML5 and CSS, I deployed this project to heroku app but I'm currently seeking for alternative hosting app so I will deploy it soon for now you can watch a video I made`,
     github: 'https://github.com/AmitDeDev/First-Django-Project---Social-Media-',
-    demo: 'https://github.com/AmitDeDev'
+    demo: 'https://youtu.be/BK2yYzDzjUQ'
   },
   {
     id: 2,
     image: resturant2,
     title: `Resturant website built with python - Django on server side & JavaScript - React on client side, I deployed the server side to heroku app but I'm currently seeking for alternative hosting app so I will deploy it soon for now you can watch a video I made`,
     github: 'https://github.com/AmitDeDev/ResturantSystemFullStackProject',
-    demo: 'https://github.com/AmitDeDev'
+    demo: 'https://youtu.be/YLtzRaNsUyY'
   },
   {
     id: 3,
     image: popthecandy,
-    title: 'Pop the candies - little game I built using JavaScript, React and CSS',
+    title: 'Pop the candies - little game I built using JavaScript, React and CSS. Drag the candies to the same kind in order to gain higher score, you will gain score by matching 3 or 4 canides in a row or line',
     github: 'https://github.com/AmitDeDev/PopTheCandiesWebGame',
     demo: 'https://popthecandy-v1.netlify.app/'
   },
   {
     id: 4,
     image: portalmemory,
-    title: 'Portal Memory - little memory game I built using JavaScript, React and CSS',
+    title: 'Portal Memory - little memory game I built using JavaScript, React and CSS. Match the images and try to match them with the lowest amount of turnes you can! the amount of turns displayed below the game board',
     github: 'https://github.com/AmitDeDev/Portal-Memory-game',
     demo: 'https://portalmemory.netlify.app/'
   },
   {
     id: 5,
     image: gamersplatform,
-    title: `GamersZone - My upcoming new project, gamers website that will give lots of information about games, I'm using python & Django for the server side with MySQL and JavaScript & React on client side. comming soon!`,
+    title: `GamersZone - My upcoming new project, gamers website that will give lots of information about games, I'm using python ~ Django for the server side with MySQL and JavaScript ~ React on client side. comming soon!`,
     github: 'https://github.com/AmitDeDev',
     demo: 'https://github.com/AmitDeDev'
   },
   {
     id: 6,
     image: code,
-    title: `Every 2-3 weeks I will upload new project I built, The upcoming projects will be: games I built using Unity & C# , API's using C# & .NET and much more! so stay tuned ;)`,
+    title: `Every month I will upload new projects I built, The upcoming projects will be: games I built using Unity & C# , API's using C# & .NET and much more! so stay tuned ;)`,
     github: 'https://github.com/AmitDeDev'
   }
 ]

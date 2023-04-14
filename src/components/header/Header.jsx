@@ -1,14 +1,14 @@
-import React from 'react'
-import './header.css'
-import CTA from './CTA'
-import ME4 from '../../assets/ME4.png'
-import HeaderSocials from './HeaderSocials'
+import React from 'react';
+import './header.css';
+import CTA from './CTA';
+import ME4 from '../../assets/ME4.png';
+import HeaderSocials from './HeaderSocials';
 import { motion } from "framer-motion";
+import TypeWriterEffect from 'react-typewriter-effect';
 
-// import Typical from 'react-typical'; -> somehow it does not work * I need to solve it soon as possible
-// There is an issue with the -> npm install --save react-typical
 
 function Header() {
+
   return (
     <header>
       <div className="container header_container">
@@ -18,9 +18,28 @@ function Header() {
               rotate: -20,
               borderRadius: "100%",
             }}>
-        <h5>Hello I'm</h5>
+        <h5>Hi there! my name is</h5>
         <h1>Amit Dehas</h1>
-        <h5 className="text-light">I'm a Fullstack Developer</h5>
+        <h5 className="text-light">And I'm a 
+              <TypeWriterEffect 
+                      textStyle={{
+                        color: 'white',
+                        fontWeight: 500,
+                        fontSize: '1.5em',
+                        textAlign: 'center'
+                      }}
+                startDelay={1000}
+                cursorColor="white"
+                multiText={[
+                  'Fullstack web Developer 💻',
+                  'Unity - Game Developer 🎮',
+                  'Software Developer 💻'
+                ]}
+                multiTextDelay={1000}
+                typeSpeed={30}
+                multiTextLoop
+              />
+        </h5>
         </motion.div>
         <CTA />
         <HeaderSocials />
